@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+  background-color: #f8f9fa;
+  font-family: "Arial", sans-serif;
+}
+
+/* Container Custom */
+.container-custom {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* padding: 64px 47px; */
+  margin: 100px auto; /* Center container horizontally */
+  max-width: 600px; /* Limit width for larger screens */
+}
+
+h2 {
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Form Elements */
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+.btn-custom {
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+.btn-custom:focus {
+  background-color: #0056b3;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.btn-custom:active {
+  background-color: #004085;
+  box-shadow: 0 3px 6px rgba(0, 123, 255, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container-custom {
+    padding: 1.5rem;
+    margin: 15px; /* Adjust margin for smaller screens */
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn-custom {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+}

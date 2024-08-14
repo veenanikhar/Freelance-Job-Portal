@@ -1,0 +1,53 @@
+.custom-card-img {
+  height: 278px; /* Set the desired height */
+  object-fit: cover; /* Ensure the image covers the entire area without distortion */
+}
+
+.news-section {
+  padding: 50px 0;
+}
+
+.sec-title {
+  margin-bottom: 30px;
+}
+
+.sec-title h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.sec-title .text {
+  font-size: 1.2rem;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.post-meta li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.card-title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  text-decoration: underline;
+}
+
+.read-more {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.read-more i {
+  margin-left: 5px;
+}

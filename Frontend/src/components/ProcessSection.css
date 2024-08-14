@@ -1,0 +1,39 @@
+.process-section {
+    /* padding-top: 0; */
+    margin: 32px;
+    padding: 55px;
+}
+
+  
+  .sec-title {
+    margin-bottom: 4rem;
+  }
+  .icon-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .sec-title h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .sec-title .text {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .process-block {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .process-block .icon-box {
+    margin-bottom: 1rem;
+  }
+  
+  .process-block h4 {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  

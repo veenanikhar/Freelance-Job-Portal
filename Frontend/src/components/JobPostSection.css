@@ -1,0 +1,69 @@
+/* src/App.css */
+
+/* General Section Styling */
+.ftco-section {
+    padding: 3rem 0;
+  }
+  
+  .ftco-counter {
+    background: #f9f9f9;
+    padding: 2rem 0;
+    margin: 30px;
+  }
+  
+  .heading-section {
+    margin-bottom: 1rem;
+  }
+  
+  .subheading {
+    color: #555;
+    font-size: 1.25rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+  }
+  
+  /* ListGroup Styling */
+  .list-group {
+    border-radius: 0.25rem;
+  }
+  
+  .list-group-item {
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Number Styling */
+  .number {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .ftco-section {
+      padding: 2rem 0;
+    }
+  
+    .heading-section h2 {
+      font-size: 2rem;
+    }
+  
+    .number {
+      font-size: 1rem;
+    }
+  }
+  

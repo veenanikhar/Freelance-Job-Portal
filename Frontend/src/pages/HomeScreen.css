@@ -1,0 +1,131 @@
+.home-screen {
+    background: linear-gradient(270deg, #5db3c2, #000000, #22c1c3);
+    background-size: 600% 600%;
+    animation: gradientAnimation 16s ease infinite;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem; /* Add padding to avoid edge-to-edge content */
+}
+
+.home-screen .text-white {
+    color: white !important;
+}
+
+.home-screen .max-w400 {
+    max-width: 400px;
+}
+
+.home-screen .align-self-center {
+    align-self: center;
+}
+
+.login-2.submit-resume {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 2rem; /* Add padding to the form container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow for better visibility */
+}
+
+.login-2.submit-resume .font-weight-bold {
+    font-weight: 700;
+}
+
+.login-2.submit-resume p {
+    color: white;
+}
+
+.login-2.submit-resume .form-control,
+.login-2.submit-resume .form-select {
+    border: 1px solid white;
+    color: black;
+    padding: 0.75rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.login-2.submit-resume .form-control:focus,
+.login-2.submit-resume .form-select:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: white;
+    box-shadow: none;
+}
+
+/* Updated CSS for Login Button */
+.login-2.submit-resume .btn-primary {
+    background-color: #ff7e5f;
+    border-color: #ff7e5f;
+    padding: 0.75rem 1.5rem;
+    font-weight: 700;
+    width: 100%; /* Full width for responsiveness */
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; /* Spacing between icon and text */
+    border-radius: 5px; /* Ensure button has rounded corners */
+}
+
+.login-2.submit-resume .btn-primary:hover {
+    background-color: #feb47b; /* Change to a different color on hover */
+    border-color: #feb47b;
+    transform: scale(1.05);
+}
+
+.login-2.submit-resume .text-left {
+    text-align: left;
+}
+
+/* Gradient text effect */
+.home-screen h2 {
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #feb47b, #22c1c3, #fdcb6e, #000000); /* Added black */
+    background-size: 200% 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientTextAnimation 5s ease-in-out infinite;
+}
+
+@keyframes gradientTextAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+/* Gradient effect for Create Account link */
+.link-wrapper a {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b, #22c1c3, #fdcb6e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.link-wrapper a:hover {
+    background-image: linear-gradient(to right, #22c1c3, #fdcb6e, #ff7e5f, #feb47b);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

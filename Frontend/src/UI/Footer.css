@@ -1,0 +1,102 @@
+/* src/UI/Footer.css */
+
+/* General Footer Styles */
+.footer {
+  background: linear-gradient(135deg, #343a40, #23272b);
+  color: white;
+  padding: 40px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-top: 1px solid #6c757d;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  /* background: url("/path/to/background-image.jpg") no-repeat center center/cover; */
+  opacity: 0.1;
+  z-index: -1;
+}
+
+/* Headings */
+.footer h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #f8f9fa;
+}
+
+/* Paragraphs and Text */
+.footer p,
+.footer .contact-info {
+  margin-bottom: 8px;
+  color: #adb5bd;
+}
+
+/* Social Media Icons */
+.footer .social-icons a {
+  color: #adb5bd;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  transform: scale(1.2);
+  color: #007bff; /* Bootstrap primary color */
+}
+
+/* Links */
+.footer a {
+  color: #adb5bd;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: #007bff;
+}
+
+/* Newsletter Form */
+.footer form .form-control {
+  border-radius: 4px;
+  border: none;
+  background-color: #495057;
+  color: white;
+  box-shadow: none;
+  transition: background-color 0.2s ease;
+}
+
+.footer form .form-control:focus {
+  background-color: #343a40;
+  border-color: #007bff;
+}
+
+.footer form button {
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.footer form button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Bottom Bar */
+.footer .text-center {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #6c757d;
+}
+
+.footer .text-sm {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
