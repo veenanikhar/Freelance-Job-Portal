@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/FreeLancer_Job_Portal/static/css/main.8bed678c.css",
+    "main.js": "/FreeLancer_Job_Portal/static/js/main.da8833fa.js",
+    "static/js/787.daa20bc8.chunk.js": "/FreeLancer_Job_Portal/static/js/787.daa20bc8.chunk.js",
+    "static/media/interviewPrepare.jpg": "/FreeLancer_Job_Portal/static/media/interviewPrepare.6f5235733e6062d6987a.jpg",
+    "static/media/Job_Vacancy.jpg": "/FreeLancer_Job_Portal/static/media/Job_Vacancy.01fd176380821c7d760c.jpg",
+    "static/media/GroupInterview.jpg": "/FreeLancer_Job_Portal/static/media/GroupInterview.0a4b06a611f63e1ebbd0.jpg",
+    "static/media/bootstrap-icons.woff?": "/FreeLancer_Job_Portal/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/FreeLancer_Job_Portal/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/Header_image1.png": "/FreeLancer_Job_Portal/static/media/Header_image1.403cb0e37126aa461984.png",
+    "static/media/RegisterImg.png": "/FreeLancer_Job_Portal/static/media/RegisterImg.0fb8e39b7ec7a48c222a.png",
+    "static/media/candidateImg.png": "/FreeLancer_Job_Portal/static/media/candidateImg.b427db2593b2bea2e737.png",
+    "static/media/cv.png": "/FreeLancer_Job_Portal/static/media/cv.fb355b966114af095678.png",
+    "index.html": "/FreeLancer_Job_Portal/index.html",
+    "main.8bed678c.css.map": "/FreeLancer_Job_Portal/static/css/main.8bed678c.css.map",
+    "main.da8833fa.js.map": "/FreeLancer_Job_Portal/static/js/main.da8833fa.js.map",
+    "787.daa20bc8.chunk.js.map": "/FreeLancer_Job_Portal/static/js/787.daa20bc8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bed678c.css",
+    "static/js/main.da8833fa.js"
+  ]
+}
