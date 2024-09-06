@@ -67,9 +67,7 @@ With a scalable design, this portal can adapt to future needs, setting a strong 
 - Admins can monitor and manage the platform via the dashboard.
 
 ## Folder Structure
-
-
-freelance-job-portal/
+Freelance-Job-Portal/
 ├── frontend/
 │   ├── public/
 │   ├── src/
@@ -80,11 +78,35 @@ freelance-job-portal/
 ├── backend/
 │   ├── src/
 │   │   ├── main/
-│   │   ├── test/
-│   │   └── ...
+│   │   │   ├── java/
+│   │   │   └── resources/
+│   │   └── test/
+│   │       └── java/
+│   └── pom.xml
 ├── README.md
 └── ...
 
+### Explanation:
+
+- **`frontend/`**: Contains all frontend-related files and code.
+  - **`public/`**: Static assets and public files.
+  - **`src/`**: Source code for the frontend application.
+    - **`components/`**: React components used throughout the application.
+    - **`pages/`**: React components representing different pages of the application.
+    - **`services/`**: Services for API calls and other utilities.
+
+- **`backend/`**: Contains all backend-related files and code.
+  - **`src/`**: Source code for the backend application.
+    - **`main/`**
+      - **`java/`**: Java source files.
+      - **`resources/`**: Configuration files and resources.
+    - **`test/`**
+      - **`java/`**: Test source files.
+  - **`pom.xml`**: Maven build configuration file.
+
+- **`README.md`**: This file, containing information about the project.
+
+- **`...`**: Placeholder for any additional files or directories.
 
 ## Components
 
